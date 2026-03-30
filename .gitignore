@@ -1,3 +1,13 @@
-/home/prodip/monitoring-stack/uptime-kuma/data
+# Ignore uptime kuma data
+home/prodip/monitoring-stack/uptime-kuma/data/
+
+# or more generic (recommended)
+**/uptime-kuma/data/
+
+# Ignore database files
+*.db
+*.db-shm
+*.db-wal
+
 /data
 /home
