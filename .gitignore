@@ -10,4 +10,6 @@ home/prodip/monitoring-stack/uptime-kuma/data/
 *.db-wal
 
 /data
+# /data/kuma.db
+
 /home
